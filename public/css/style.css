@@ -177,6 +177,7 @@ hr {
   transition: all 0.5s linear;
   border: 0;
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -221,7 +222,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 70px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -240,7 +241,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -548,15 +549,15 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item {
+#contact .contact-item, #contact .service-error {
   margin: 20px 0;
 }
-#contact .contact-item span {
+#contact .contact-item span, #contact .service-error span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .contact-item i.fa, #contact .service-error i.fa {
   margin-right: 10px;
 }
 #contact .social {
